@@ -1,6 +1,7 @@
 # CPHS - First Pull Request
 #### ONLY FOR CPHS STUDENTS
-This is a sample repository to learn to make a pull request
+This is a sample repository to learn to make a pull request  
+Git video: https://www.youtube.com/watch?v=2ReR1YJrNOM 
 
 ## How to use this repository
 #### 1.) Find an issue
