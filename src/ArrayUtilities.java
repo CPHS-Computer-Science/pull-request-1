@@ -9,7 +9,13 @@ public class ArrayUtilities {
     }
 
     public static double mean(int[] nums){
-        return 0;
+        double count = 0.0;
+
+        for (int n : nums) {
+            count += n;
+        }
+
+        return (count / nums.length);
     }
 
 }
