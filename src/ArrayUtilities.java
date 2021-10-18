@@ -4,12 +4,15 @@ public class ArrayUtilities {
         return 0;
     }
 
-    public static int median(int[] nums){
-        return 0;
-    }
+    public static int median(int[] nums){return 0;}
 
     public static double mean(int[] nums){
-        return 0;
+        double mean = 0;
+        for(int i : nums){
+            mean+=i;
+        }
+        mean /= nums.length;
+        return mean;
     }
 
 }
