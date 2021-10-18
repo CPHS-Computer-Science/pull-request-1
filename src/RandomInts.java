@@ -5,7 +5,7 @@ public class RandomInts {
     public RandomInts(){
         numbers = new int[10];
         for(int i = 0 ; i < numbers.length; i++){
-            numbers[i] = (int)(Math.random()*10);
+            numbers[i] = (int)(Math.random()*11);
         }
     }
 
