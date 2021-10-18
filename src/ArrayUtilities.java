@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class ArrayUtilities {
 
     public static int sum(int[] nums){
@@ -5,7 +7,8 @@ public class ArrayUtilities {
     }
 
     public static int median(int[] nums){
-        return 0;
+        Arrays.sort(nums);
+        return nums[nums.length/2];
     }
 
     public static double mean(int[] nums){
