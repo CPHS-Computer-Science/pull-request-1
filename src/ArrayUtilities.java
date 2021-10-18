@@ -12,4 +12,6 @@ public class ArrayUtilities {
         return 0;
     }
 
+    public static double mean(double[] nums) { return 0; }
+
 }
