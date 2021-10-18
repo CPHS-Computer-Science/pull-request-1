@@ -1,7 +1,12 @@
 public class ArrayUtilities {
 
     public static int sum(int[] nums){
-        return 0;
+        int sum = 0;
+
+        for(int i : nums){
+            sum += nums[i];
+        }
+        return sum;
     }
 
     public static int median(int[] nums){
